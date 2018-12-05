@@ -31,3 +31,44 @@ Processing triggers for ureadahead (0.100.0-19) ...
 Errors were encountered while processing:
  linux-image-4.15.0-42-generic
 E: Sub-process /usr/bin/dpkg returned an error code (1)
+
+
+FAILED: sudo update-grub-legacy-ec2 -y
+-----------------------------------------
+sudo: update-grub-legacy-ec2: command not found
+-----------------------------------------
+Building web file structure and copying files...
+/tmp/remote_web_web_server.sh: line 19: cd: /home/crypto-data/yiimp/yiimp_setup/yiimp: No such file or directory
+sed: can't read /home/crypto-data/yiimp/yiimp_setup/yiimp/web/yaamp/modules/site/SiteController.php: No such file or directory
+cp: cannot stat '/home/crypto-data/yiimp/yiimp_setup/yiimp/web': No such file or directory
+/tmp/remote_web_web_server.sh: line 22: cd: /home/crypto-data/yiimp/yiimp_setup/: No such file or directory
+cp: cannot stat '/home/crypto-data/yiimp/yiimp_setup/yiimp/bin/.': No such file or directory
+sed: can't read /bin/yiimp: No such file or directory
+Creating NGINX config file...
+ln: failed to create symbolic link '/etc/nginx/sites-enabled/wildhash.com.conf': No such file or directory
+
+FAILED: sudo service nginx restart
+-----------------------------------------
+Failed to restart nginx.service: Unit nginx.service not found.
+-----------------------------------------
+Upgrading NGINX...
+    
+FAILED: sudo service php7.2-fpm restart
+-----------------------------------------
+Failed to restart php7.2-fpm.service: Unit php7.2-fpm.service not found.
+
+
+
+
+FAILED: sudo update-grub-legacy-ec2 -y
+-----------------------------------------
+sudo: update-grub-legacy-ec2: command not found
+-----------------------------------------
+Building blocknotify and stratum...
+/tmp/remote_stratum.sh: line 17: cd: /home/crypto-data/yiimp/yiimp_setup/yiimp/blocknotify: No such file or directory
+sed: can't read blocknotify.cpp: No such file or directory
+
+FAILED: sudo make
+-----------------------------------------
+sudo: make: command not found
+-----------------------------------------
