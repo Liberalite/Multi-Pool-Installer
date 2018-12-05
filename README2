@@ -8,3 +8,26 @@ sudo service ssh restart
 dd: failed to open '/swapfile': Permission denied
 ERROR: Swap allocation failed
 
+FAILED: sudo update-grub-legacy-ec2 -y
+-----------------------------------------
+sudo apt-get update; sudo apt-get install --reinstall grub
+sudo apt-get install grub-pc grub-common
+sudo grub-install --recheck /dev/sda
+sudo update-grub
+
+FAILED: sudo apt install -y --install-recommends linux-generic-hwe-16.04
+-----------------------------------------
+
+Could not find /boot/grub/menu.lst file. Would you like /boot/grub/menu.lst generated for you? (y/N) /usr/sbin/update-grub: line 1094: read: read error: 0: Bad file descriptor
+run-parts: /etc/kernel/postinst.d/zz-update-grub exited with return code 1
+dpkg: error processing package linux-image-4.15.0-42-generic (--configure):
+ subprocess installed post-installation script returned error exit status 1
+Processing triggers for initramfs-tools (0.122ubuntu8.13) ...
+update-initramfs: Generating /boot/initrd.img-4.15.0-1025-gcp
+W: mdadm: /etc/mdadm/mdadm.conf defines no arrays.
+Processing triggers for dbus (1.10.6-1ubuntu3.3) ...
+Processing triggers for systemd (229-4ubuntu21.10) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Errors were encountered while processing:
+ linux-image-4.15.0-42-generic
+E: Sub-process /usr/bin/dpkg returned an error code (1)
