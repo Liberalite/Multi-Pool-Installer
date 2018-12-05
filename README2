@@ -72,3 +72,136 @@ FAILED: sudo make
 -----------------------------------------
 sudo: make: command not found
 -----------------------------------------
+-----------------------------------------                                                                                                                                                                                                     
+Boosting server performance for YiiMP...                                                                                                                                                                                                      
+Tuning complete...                                                                                                                                                                                                                            
+Making proper server configurations...                                                                                                                                                                                                        
+/tmp/create_user_remote.sh: line 12: /etc/functions.sh: No such file or directory                                                                                                                                                             
+/tmp/create_user_remote.sh: line 21: get_publicip_from_web_service: command not found                                                                                                                                                         
+/tmp/create_user_remote.sh: line 35: input_box: command not found                                                                                                                                                                             
+/tmp/remote_daemon.sh: line 8: /etc/functions.sh: No such file or directory                                                                                                                                                                   
+/tmp/remote_daemon.sh: line 9: /etc/multipool.conf: No such file or directory                                                                                                                                                                 
+Setting TimeZone to UTC...                                                                                                                                                                                                                    
+Adding the required repsoitories...                                                                                                                                                                                                           
+Installing MariaDB Repository...                                                                                                                                                                                                              
+/tmp/remote_daemon.sh: line 36: hide_output: command not found                                                                                                                                                                                
+Updating system packages...                                                                                                                                                                                                                   
+/tmp/remote_daemon.sh: line 42: hide_output: command not found                                                                                                                                                                                
+Upgrading system packages...                                                                                                                                                                                                                  
+/tmp/remote_daemon.sh: line 52: hide_output: command not found                                                                                                                                                                                
+/tmp/remote_daemon.sh: line 55: apt_get_quiet: command not found                                                                                                                                                                              
+Running Dist-Upgrade...                                                                                                                                                                                                                       
+/tmp/remote_daemon.sh: line 60: apt_get_quiet: command not found                                                                                                                                                                              
+Running Autoremove...   
+/tmp/remote_daemon.sh: line 64: apt_get_quiet: command not found                                                                                                                                                                     [71/1948]
+Installing Base system packages...                                                                                                                                                                                                            
+/tmp/remote_daemon.sh: line 68: apt_install: command not found                                                                                                                                                                                
+Initializing system random number generator...                                                                                                                                                                                                
+/tmp/remote_daemon.sh: line 77: hide_output: command not found                                                                                                                                                                                
+Installing BitCoin PPA...                                                                                                                                                                                                                     
+/tmp/remote_daemon.sh: line 82: hide_output: command not found                                                                                                                                                                                
+Installing additional system files required for daemons...                                                                                                                                                                                    
+/tmp/remote_daemon.sh: line 85: hide_output: command not found                                                                                                                                                                                
+/tmp/remote_daemon.sh: line 88: apt_install: command not found                                                                                                                                                                                
+Building Berkeley 4.8, this may take several minutes...                                                                                                                                                                                       
+/tmp/remote_daemon.sh: line 103: hide_output: command not found                                                                                                                                                                               
+/tmp/remote_daemon.sh: line 104: hide_output: command not found                                                                                                                                                                               
+/tmp/remote_daemon.sh: line 105: cd: db-4.8.30.NC/build_unix/: No such file or directory                                                                                                                                                      
+/tmp/remote_daemon.sh: line 106: hide_output: command not found                                                                                                                                                                               
+/tmp/remote_daemon.sh: line 109: hide_output: command not found                                                                                                                                                                               
+rm: cannot remove 'db-4.8.30.NC.tar.gz': No such file or directory                                                                                                                                                                            
+rm: cannot remove 'db-4.8.30.NC': No such file or directory                                                                                                                                                                                   
+Building Berkeley 5.3, this may take several minutes...                                                                                                                                                                                       
+/tmp/remote_daemon.sh: line 117: hide_output: command not found                                                                                                                                                                               
+/tmp/remote_daemon.sh: line 118: hide_output: command not found                                                                                                                                                                               
+/tmp/remote_daemon.sh: line 119: cd: db-5.3.28/build_unix/: No such file or directory                                                                                                                                                         
+/tmp/remote_daemon.sh: line 120: hide_output: command not found                                                                                                                                                                               
+/tmp/remote_daemon.sh: line 123: hide_output: command not found                                                                                                                                                                               
+rm: cannot remove 'db-5.3.28.tar.gz': No such file or directory                                                                                                                                                                               
+rm: cannot remove 'db-5.3.28': No such file or directory                                                                                                                                                                                      
+Building OpenSSL 1.0.2g, this may take several minutes...                                                                                                                                                                                     
+/tmp/remote_daemon.sh: line 131: hide_output: command not found                                                                                                                                                                               
+/tmp/remote_daemon.sh: line 132: hide_output: command not found                                                                                                                                                                               
+/tmp/remote_daemon.sh: line 133: cd: openssl-1.0.2g: No such file or directory                                                                                                                                                                
+/tmp/remote_daemon.sh: line 134: hide_output: command not found                                                                                                                                                                               
+/tmp/remote_daemon.sh: line 137: hide_output: command not found                                                                                                                                                                               
+/tmp/remote_daemon.sh: line 140: hide_output: command not found                                                                                                                                                                               
+rm: cannot remove 'openssl-1.0.2g.tar.gz': No such file or directory                                                                                                                                                                          
+rm: cannot remove 'openssl-1.0.2g': No such file or directory                                                                                                                                                                                 
+cp: cannot stat '/tmp/blocknotify': No such file or directory                                                                                                                                                                                 
+chmod: cannot access '/usr/bin/blocknotify': No such file or directory                                                                                                                                                                        
+Daemon setup completed...                                                                                                                                                                                                                     
+/tmp/motd.sh: line 8: /etc/functions.sh: No such file or directory                                                                                                                                                                            
+/tmp/motd.sh: line 9: /etc/multipool.conf: No such file or directory                                                                                                                                                                          
+/tmp/motd.sh: line 12: apt_install: command not found                                                                                                                                                                                         
+/tmp/server_harden.sh: line 10: /etc/functions.sh: No such file or directory                                                                                                                                                                  
+/tmp/server_harden.sh: line 11: /etc/multipool.conf: No such file or directory                                                                                                                                                                
+Boosting server performance for YiiMP...  
+/tmp/server_harden.sh: line 19: hide_output: command not found                                                                                                                                                                       [27/1948]
+/tmp/server_harden.sh: line 21: hide_output: command not found
+/tmp/server_harden.sh: line 22: hide_output: command not found
+/tmp/server_harden.sh: line 25: hide_output: command not found
+/tmp/server_harden.sh: line 26: hide_output: command not found
+/tmp/server_harden.sh: line 27: hide_output: command not found
+/tmp/server_harden.sh: line 28: hide_output: command not found
+/tmp/server_harden.sh: line 29: hide_output: command not found
+/tmp/server_harden.sh: line 30: hide_output: command not found
+/tmp/server_harden.sh: line 31: hide_output: command not found
+/tmp/server_harden.sh: line 32: hide_output: command not found
+/tmp/server_harden.sh: line 33: hide_output: command not found
+Tuning complete...
+Installing UFW...
+Firewall is active and enabled on system startup
+Installation of your YiiMP multi server is now completed.
+You *MUST* reboot this machine to finalize the system updates and folder permissions! YiiMP will not function until a reboot is performed!
+
+Now that installation in completed, all further actions will be done on your web server
+
+Important! After first reboot it may take up to 1 minute for the main|loop2|blocks|debug screens to start!
+After 1 minute, type motd to refresh
+
+You can access your admin panel at, http://wildhash.com/site/myadmin
+
+By default all stratum ports are blocked by the firewall. To allow a port through, from the command prompt type sudo ufw allow port number.
+Database user names and passwords can be found in /home/crypto-data/yiimp_setup/.my.cnf
+blockchain@pool-database:~$
+
+
+
+
+
+chmod: cannot access '/usr/bin/blocknotify': No such file or directory                                                                                                                                                               [35/1948]
+Daemon setup completed...                                                                                                                                                                                                                     
+/tmp/motd.sh: line 8: /etc/functions.sh: No such file or directory                                                                                                                                                                            
+/tmp/motd.sh: line 9: /etc/multipool.conf: No such file or directory                                                                                                                                                                          
+/tmp/motd.sh: line 12: apt_install: command not found                                                                                                                                                                                         
+/tmp/server_harden.sh: line 10: /etc/functions.sh: No such file or directory                                                                                                                                                                  
+/tmp/server_harden.sh: line 11: /etc/multipool.conf: No such file or directory                                                                                                                                                                
+Boosting server performance for YiiMP...                                                                                                                                                                                                      
+/tmp/server_harden.sh: line 19: hide_output: command not found                                                                                                                                                                                
+/tmp/server_harden.sh: line 21: hide_output: command not found                                                                                                                                                                                
+/tmp/server_harden.sh: line 22: hide_output: command not found                                                                                                                                                                                
+/tmp/server_harden.sh: line 25: hide_output: command not found                                                                                                                                                                                
+/tmp/server_harden.sh: line 26: hide_output: command not found                                                                                                                                                                                
+/tmp/server_harden.sh: line 27: hide_output: command not found                                                                                                                                                                                
+/tmp/server_harden.sh: line 28: hide_output: command not found
+/tmp/server_harden.sh: line 29: hide_output: command not found
+/tmp/server_harden.sh: line 30: hide_output: command not found
+/tmp/server_harden.sh: line 31: hide_output: command not found
+/tmp/server_harden.sh: line 32: hide_output: command not found
+/tmp/server_harden.sh: line 33: hide_output: command not found
+Tuning complete...
+Installing UFW...
+Firewall is active and enabled on system startup
+Installation of your YiiMP multi server is now completed.
+You *MUST* reboot this machine to finalize the system updates and folder permissions! YiiMP will not function until a reboot is performed!
+
+Now that installation in completed, all further actions will be done on your web server
+
+Important! After first reboot it may take up to 1 minute for the main|loop2|blocks|debug screens to start!
+After 1 minute, type motd to refresh
+
+You can access your admin panel at, http://wildhash.com/site/myadmin
+
+By default all stratum ports are blocked by the firewall. To allow a port through, from the command prompt type sudo ufw allow port number.
+Database user names and passwords can be found in /home/crypto-data/yiimp_setup/.my.cnf
