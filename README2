@@ -1,3 +1,5 @@
+passwd blockchain
+  # add password
 sudo nano /etc/ssh/sshd_config
   PubkeyAuthentication no
   PasswordAuthentication yes
