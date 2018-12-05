@@ -2,3 +2,7 @@ sudo nano /etc/ssh/sshd_config
   PubkeyAuthentication no
   PasswordAuthentication yes
 sudo service ssh restart
+
+dd: failed to open '/swapfile': Permission denied
+ERROR: Swap allocation failed
+
